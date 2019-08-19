@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/vs" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="22sp" android:textColor="#ffffff" android:id="@+id/tvLoginUser" android:background="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ID" android:fontFamily="sans-serif-condensed" android:textAlignment="center"/>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/tvSendRequest" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Online Friends" android:fontFamily="monospace" android:textAlignment="center"/>
+            <ListView android:id="@+id/lv_loginUsers" android:background="#57111010" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#ffffff"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#000" android:id="@+id/tvAcceptRequest" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:text="Requests" android:textAllCaps="false" android:fontFamily="monospace" android:textAlignment="center"/>
+            <ListView android:id="@+id/lv_requestedUsers" android:background="#570e0e0e" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="0dp" android:paddingStart="50dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
