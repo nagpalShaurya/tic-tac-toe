@@ -9,8 +9,8 @@ Online multiplayer Tic-Tac-Toe using Google Firebase that allows you to connect 
     implementation 'com.android.support:appcompat-v7:28.0.0'
 ```
 # Screenshots
-![](gitpics/tsplash.PNG)
-![](gitpics/tselect.PNG)
-![](gitpics/tgame.PNG)
-![](gitpics/online.PNG)
-![](gitpics/game.PNG)
+<img src="gitpics/tsplash.PNG" width="230" height="350">
+<img src="gitpics/tselect.PNG" width="230" height="350">
+<img src="gitpics/tgame.PNG" width="230" height="350">
+<img src="gitpics/game.PNG" width="230" height="350">
+<img src="gitpics/online.PNG" width="230" height="350">
