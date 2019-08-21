@@ -12,4 +12,3 @@ Online multiplayer Tic-Tac-Toe using Google Firebase that allows you to connect 
 ![](gitpics/tsplash.png)
 ![](gitpics/tselect.png)
 ![](gitpics/tgame.png)
-![](gitpics/online.png)
